@@ -54,6 +54,10 @@ def filter_analysis_colored(img, kernel):
     ax[1].set_title("filtred image")
 
 
+# sobel filter
+# ----------------------------------
+
+
 def get_Gx(img):
     #     get img conv Sx filter
     Sx = np.array([[-1, 0, 1], [-2, 0, 2], [-1, 0, -1]])
@@ -64,6 +68,9 @@ def get_Gy(img):
     #     get img conv Sy filter
     Sy = np.array([[-1, -2, -1], [0, 0, 0], [1, 2, 1]])
     return apply_filter_to_single_channel(img, Sy)
+
+
+# ----------------------------------
 
 
 # filtre laplace
