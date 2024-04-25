@@ -60,7 +60,7 @@ def filter_analysis_colored(img, kernel):
 
 def get_Gx(img):
     #     get img conv Sx filter
-    Sx = np.array([[-1, 0, 1], [-2, 0, 2], [-1, 0, -1]])
+    Sx = np.array([[-1, 0, 1], [-2, 0, 2], [-1, 0, +1]])
     return apply_filter_to_single_channel(img, Sx)
 
 
