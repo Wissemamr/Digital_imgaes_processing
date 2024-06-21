@@ -13,3 +13,6 @@ This repo contains the labs and practical work of the module : DIGITAL IMAGE PRO
 - Gradient method and Laplacien method for edge detection.
 - Application of the box filter and gaussian filter.
 - Application of the Sobel filter.
+
+### Homework : 
+- Apple counting in an image with a textured background
